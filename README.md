@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript While løkker</h1> 
+<h1 align="center">JavaScript Functions</h1> 
 <div align="center"> 
     <h3> 
         <a href="https://rettlaks.github.io/JS-Functions/"> Lenken til prosjektet 
