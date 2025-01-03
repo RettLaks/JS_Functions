@@ -80,3 +80,36 @@ function Oppgave6() {
     }
     return console.log("RIKTIG!!!");
 }
+
+function Oppgave7() {
+    let list = []
+    let ekslusivListe = []
+    for (let i = 0; i < 5; i++) {
+        
+
+        let brukerTall = prompt("Skriv et tall")
+        if (brukerTall > 10) {
+            ekslusivListe.push(brukerTall)
+        }
+        list.push(brukerTall)
+        
+    }
+    
+    return console.log(`Du skrev ${list}, og tallene over 10 er ${ekslusivListe}`);
+}
+
+function Oppgave8() {
+    let toTerningerErSeks = false
+    let antallKast = 0
+    while (toTerningerErSeks == false) {
+        let terning1 = Math.round(Math.random()*(6-1)+1)
+        let terning2 = Math.round(Math.random()*(6-1)+1)
+
+        if (terning1 == 6 && terning2 == 6) {
+            toTerningerErSeks = true
+        }
+
+        antallKast++
+    }
+    return console.log(`Det tok ${antallKast} kast før begge terningene ble 6`);
+}
